@@ -12,6 +12,7 @@
 
 8.서버 실행 : 터미널 실행 > cd [Example 코드의 디렉토리/examples/chat/] > node app.js 입력
 
+안드로이드 프로젝트는 main 브런치 말고 androidAPP 브런치 전체 다운!
 
 https://demat.tistory.com/19  - 안드로이드 참고 사이트
 
