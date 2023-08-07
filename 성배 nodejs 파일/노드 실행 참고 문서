@@ -1,0 +1,18 @@
+터미널에서 노드 파일을 실행 시킬 파일 위치로 이동 
+
+1. express 다운로드 : 터미널 실행 > cd [Example 코드의 디렉토리] > npm install express --save 입력 > install을 기다리면 끝~!
+
+2. engine.io 다운로드 : 터미널 실행 > cd [Example 코드의 디렉토리] > npm install engine.io --save
+
+3. debug 다운로드 : 터미널 실행 > cd [Example 코드의 디렉토리] > npm install debug --save
+
+4. has-binary2 다운로드 : 터미널 실행 > cd [Example 코드의 디렉토리] > npm install has-binary2 --save
+
+5. socket.io 다운로드 : 터미널 실행 > cd[Example 코드의 디렉토리] > npm install socket.io --save
+
+8.서버 실행 : 터미널 실행 > cd [Example 코드의 디렉토리/examples/chat/] > node app.js 입력
+
+
+https://demat.tistory.com/19  - 안드로이드 참고 사이트
+
+https://choidev-1.tistory.com/71  - 노드 참고 사이트
