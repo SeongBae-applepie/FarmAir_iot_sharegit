@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_marginTop="15dp">
+
+    <!-- 온도 습도 수온 광도 레이아웃 -->
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:weightSum="4"
+        android:background="#0f0f0f0f">
+
+        <TextView
+            android:id="@+id/Text_Tem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/button_round"
+            android:hint="온도" />
+
+        <TextView
+            android:id="@+id/Text_Hum"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/button_round"
+            android:hint="습도" />
+
+        <TextView
+            android:id="@+id/Text_WaterTem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/button_round"
+            android:hint="수온" />
+
+        <TextView
+            android:id="@+id/Text_Light"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/button_round"
+            android:hint="광도" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>>
+
+
+    <!-- 버튼 레이아웃 -->
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:weightSum="4"
+        android:background="#0f0f0f0f">
+
+    <Button
+        android:id="@+id/Btn_Get_Value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#999999"
+        android:text="값 가져오기"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#0000ff">
+    </androidx.appcompat.widget.LinearLayoutCompat>>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
