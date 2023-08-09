@@ -15,7 +15,7 @@ USE farmairdb;
 CREATE TABLE env(	
 	id INT NOT NULL AUTO_INCREMENT,
 	mtime DATETIME NOT NULL,
-	temp INT,
+	temp FLOAT,
 	hum INT,
 	wtemp INT,
 	light INT,
